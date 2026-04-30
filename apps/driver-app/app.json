@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Jeevan Rakshak Driver",
+    "slug": "jr-driver-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "jrdriver",
+    "userInterfaceStyle": "light",
+    "platforms": ["android"],
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/REPLACE_DRIVER_EAS_PROJECT_ID"
+    },
+    "android": {
+      "package": "com.jeevanrakshak.driver",
+      "versionCode": 1,
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION", "POST_NOTIFICATIONS", "FOREGROUND_SERVICE"]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_DRIVER_EAS_PROJECT_ID"
+      },
+      "apiBaseUrl": "REPLACE_API_BASE_URL"
+    }
+  }
+}

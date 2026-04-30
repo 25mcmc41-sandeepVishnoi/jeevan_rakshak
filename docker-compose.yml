@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: jr-postgres
+    environment:
+      POSTGRES_DB: jr_v0
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - jr_pg_data:/var/lib/postgresql/data
+
+volumes:
+  jr_pg_data:

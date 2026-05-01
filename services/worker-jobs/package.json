@@ -10,8 +10,10 @@
     "lint": "echo \"Wire eslint in next iteration\"",
     "test": "echo \"Wire tests in next iteration\""
   },
+  "dependencies": {
+    "@types/node": "^25.6.0"
+  },
   "devDependencies": {
-    "@types/node": "^25.6.0",
     "tsx": "^4.19.1",
     "typescript": "^5.6.3"
   }
